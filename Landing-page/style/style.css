@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("./custom-style.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--dark-blue);
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  align-items: center;
+  column-gap: 10px;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  column-gap: 2.5rem;
+  overflow: hidden;
+  background-color: transparent;
+  transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+}
+
+.nav-left ul a {
+  position: relative;
+  color: var(--white);
+}
+
+.btn {
+  padding: 4px 26px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  background-color: var(--white);
+  border: none;
+  outline: none;
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+
+.menu {
+  cursor: pointer;
+  display: none;
+}
+
+.menu i {
+  color: var(--white);
+  font-size: 16px;
+}
+
+/* header */
+
+.header {
+  position: relative;
+  width: 100%;
+  padding-top: 130px;
+  z-index: 99;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left,
+.header-right {
+  flex-basis: 49%;
+}
+
+.header-left h1 {
+  color: var(--white);
+}
+
+.header-left p {
+  margin-bottom: 8px;
+  color: var(--light-grey);
+}
+
+.header-left .pri-btn {
+  margin-right: 14px;
+}
+
+.header-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: fit;
+}
+
+.header-left div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header-left button:hover {
+  transform: translateY(-6px);
+  -webkit-transform: translateY(-6px);
+  -moz-transform: translateY(-6px);
+  -ms-transform: translateY(-6px);
+  -o-transform: translateY(-6px);
+}
+
+.feature {
+  width: 100%;
+  height: 100vh;
+}
+
+/* @import url("./media-query.css"); */
