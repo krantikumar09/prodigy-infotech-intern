@@ -24,6 +24,10 @@
     max-width: 100%;
   }
 
+  .heading-text-xl {
+    font-size: 2rem;
+    line-height: 3.25rem;
+  }
   .menu {
     display: block;
   }
@@ -78,7 +82,11 @@
     font-size: 1.25rem;
     line-height: 2rem;
   }
-  
+
+  .section-flex {
+    flex-direction: column;
+  }
+
   .card-btn {
     font-size: 1rem;
   }
@@ -132,7 +140,16 @@
   }
 
   .para-text-xs {
+    font-size: 0.5rem;
+  }
+
+  .para-text-xs {
     font-size: 0.75rem;
     line-height: 1.25rem;
+  }
+
+  .heading-text-xl {
+    font-size: 1.75rem;
+    line-height: 3rem;
   }
 }
