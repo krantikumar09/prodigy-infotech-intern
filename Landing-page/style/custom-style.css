@@ -60,8 +60,8 @@ a {
 .heading-text-xl {
   font-family: var(--pri-font);
   font-weight: normal;
-  font-size: 2.25rem;
-  line-height: 3.5rem;
+  font-size: 2rem;
+  line-height: 3.25rem;
   margin-bottom: 1rem;
 }
 
