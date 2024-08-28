@@ -334,11 +334,70 @@ details[open] div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #ccc;
 }
 
 .blog .card-content .blog-top {
   flex-grow: 1;
 }
+
+.blog .btn-box {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog .sec-btn {
+  border-color: var(--dark-blue);
+  color: var(--dark-blue);
+}
+
+
+/* newsletter */
+.newsletter-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--dark-blue);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.newsletter-wrapper h1 {
+  text-align: center;
+  color: var(--white);
+}
+
+.newsletter-wrapper .form {
+  margin-top: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.newsletter-wrapper .input-box {
+  width: 40%;
+  padding: 10px 20px;
+  border-radius: 56px;
+  -webkit-border-radius: 56px;
+  -moz-border-radius: 56px;
+  -ms-border-radius: 56px;
+  -o-border-radius: 56px;
+  outline: none;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: var(--sec-font);
+  line-height: 1.75rem;
+}
+
+.newsletter-wrapper .button {
+  background-color: var(--green);
+}
+
 
 /* @import url("./media-query.css"); */

@@ -131,6 +131,29 @@
   .features .section-flex {
     flex-direction: column-reverse;
   }
+
+  .blog .sec-btn {
+    padding: 6px 24px;
+    font-size: .75rem;
+  }
+
+  .newsletter-wrapper .form {
+    flex-direction: column;
+  }
+
+  /* newsletter */
+  .newsletter-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .newsletter-wrapper .input-box {
+    width: 100%;
+  }
+
+  .newsletter-wrapper .button {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 490px) {
@@ -156,4 +179,8 @@
     font-size: 1.75rem;
     line-height: 3rem;
   }
+
+  .blog .sec-btn {
+    padding: 4px 24px;
+  } 
 }
