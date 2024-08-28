@@ -127,6 +127,10 @@
   .header-left .button {
     width: 100%;
   }
+
+  .features .section-flex {
+    flex-direction: column-reverse;
+  }
 }
 
 @media only screen and (max-width: 490px) {
