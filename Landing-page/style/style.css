@@ -353,7 +353,6 @@ details[open] div {
   color: var(--dark-blue);
 }
 
-
 /* newsletter */
 .newsletter-wrapper {
   padding-top: 3rem;
@@ -397,6 +396,62 @@ details[open] div {
 
 .newsletter-wrapper .button {
   background-color: var(--green);
+}
+
+/* footer */
+
+footer {
+  margin-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.footer-wrapper div:first-child {
+  grid-column: 1 / span 2;
+}
+.footer-menu-title {
+  font-family: var(--sec-font);
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  color: black;
+}
+
+.footer-wrapper ul li {
+  margin: 16px 0;
+  cursor: pointer;
+}
+
+.footer-wrapper ul li a {
+  font-family: var(--sec-font);
+  font-weight: normal;
+  font-size: 1rem;
+  color: var(--gray);
+}
+
+.footer-logo path {
+  fill: var(--dark-blue)
+}
+
+.footer-logo {
+  margin-bottom: 1rem;
+}
+
+.footer-col-1 p  {
+  font-size: 1rem;
+  line-height: normal;
+  margin-bottom: .75rem;
+  color: var(--gray);
+}
+
+.copyright {
+  color: var(--gray);
+  margin-top: 1rem;
 }
 
 

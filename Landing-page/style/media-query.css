@@ -66,6 +66,14 @@
     -ms-transition: all ease-in-out 0.3s;
     -o-transition: all ease-in-out 0.3s;
   }
+
+  .footer-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-wrapper div:first-child {
+    grid-column: inherit;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -182,5 +190,9 @@
 
   .blog .sec-btn {
     padding: 4px 24px;
+  } 
+
+  .footer-wrapper {
+    grid-template-columns: repeat(1, 1fr);
   } 
 }
