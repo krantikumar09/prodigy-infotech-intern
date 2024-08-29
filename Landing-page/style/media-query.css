@@ -161,6 +161,46 @@
 
   .newsletter-wrapper .button {
     width: 100%;
+    row-gap: 30px;
+  }
+
+  .our-number-row {
+    row-gap: 30px;
+    flex-direction: column;
+  }
+
+  .our-number-row h1, 
+  .our-number-row p {
+    text-align: center;
+  }
+
+  .heading-text-xxxl {
+    font-size: 3.25rem;
+    line-height: 4.25rem;
+  }
+
+  .value-row .value {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .heading-text-l {
+    font-size: 1.5rem;
+  }
+
+  .about-header {
+    margin-top: -3.5rem;
+  }
+
+  .about-header-row {
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .about-header-row .col-span {
+    grid-column: 1 / 3;
+    grid-row: 3;
   }
 }
 
