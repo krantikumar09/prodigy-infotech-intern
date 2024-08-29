@@ -582,4 +582,46 @@ footer {
   -o-border-radius: 12px;
 }
 
+
+/* blog */
+
+.blog .navbar .logo-text {
+  fill: var(--dark-blue);
+}
+
+.blog .navbar ul {
+  background-color: var(--white);
+}
+
+.blog .navbar ul a {
+  color: var(--dark-blue);
+}
+
+.blog .navbar .btn {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.blog .navbar .menu i {
+  color: var(--dark-blue);
+}
+
+.blog .hero {
+  height: auto;
+  background-color: var(--white);
+}
+
+.blog .featured-blog .section-flex {
+  align-items: end;
+  padding-bottom: 3rem;
+}
+
+.blog .featured-blog .left img  {
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
 /* @import url("./media-query.css"); */
