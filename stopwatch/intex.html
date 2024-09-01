@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="wrapper">
+
+                <h1 class="heading">
+                    Stopwatch
+                </h1>
+                <div class="timer-container">
+                    <div class="timer-box">
+                        <div class="timer-display">
+                            <span class="digit" id="hoursRef">0</span>
+                            <span class="word">H</span>
+
+                            <span class="digit" id="minRef">00</span>
+                            <span class="word">M</span>
+
+                            <span class="digit" id="secRef">00</span>
+                            <span class="word">s</span>
+
+                            <span class="millisecond-text" id="milliRef">00</span>
+                        </div>
+                        <div class="buttons">
+                            <button id="lap-timer" class="button timer-button">Lap</button>
+                            <button id="toggle-timer" class="start-button">Start</button>
+                            <button id="reset-timer" class="button">Reset</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lap-container" id="lap-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>lap</th>
+                                <th>time</th>
+                                <th>total time</th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="lap-table-body">
+                            <!-- <tr>
+                                <td>1</td>
+                                <td>0:00:00</td>
+                                <td>0:00:00</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom js -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
