@@ -53,7 +53,7 @@ function handleCellClick(event) {
     gameBox.classList.remove("show");
     resultBox.classList.add("show");
 
-    wonText.textContent = `Player ${currentPlayer} wins!`;
+    wonText.textContent = `Player '${currentPlayer}' wins!`;
     gameActive = false;
     return;
   }

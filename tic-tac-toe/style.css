@@ -138,7 +138,7 @@ hr {
   text-align: center;
   margin-bottom: 3vmin;
   font-weight: 500;
-  font-size: 2vmin;
+  font-size: 2.25vmin;
 }
 
 #game {
@@ -148,6 +148,9 @@ hr {
 }
 
 #game .box {
+  font-weight: 700;
+  font-size: 6vmin;
+  color: var(--priColor);
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
